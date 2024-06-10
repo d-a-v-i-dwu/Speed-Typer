@@ -1,6 +1,6 @@
-from nltk.corpus import words
 import time
 import random
+from nltk.corpus import words
 
 words_list = words.words()
 
@@ -36,12 +36,20 @@ def word_generator(word_count, words_list):
     return words
 
 def typing(words):
+    time.sleep(1.2)
     print()
+    print("Generating words...")
+    time.sleep(1.5)
     print("Type these words as fast as you can:")
+    time.sleep(1)
+    print()
     print(words)
+    time.sleep(2.5)
     print()
     print("Press Enter to submit")
     time.sleep(1)
+    print("Begin in:")
+    time.sleep(1.2)
     print("3...")
     time.sleep(1)
     print("2...")
